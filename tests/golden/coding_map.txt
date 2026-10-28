@@ -1,0 +1,463 @@
+### marginal a - swapped=False
+The debate concerns the following programming problem.
+
+Problem:
+You are given two integers $x$ and $y$. Output the minimum of $x$ and $y$, followed by the maximum of $x$ and $y$.
+
+Input
+The first line contains a single integer $t$ ($1 \leq t \leq 100$) -- the number of test cases. The only line of each test case contains two space-separated integers $x$ and $y$ ($0 \leq x, y \leq 9$).
+
+Output
+For each test case, output $\min\{x, y\}$ followed by $\max\{x, y\}$.
+
+Tags: ['implementation', 'sortings']
+Time limit: 1 seconds
+Memory limit: 256 megabytes
+
+Design decision: Whether to use built-in min and max operations versus implementing the comparison logic manually with conditionals, trading off brevity against explicitness.
+
+The debate on this topic has been mapped out as follows. Each indented entry is a reason bearing on the entry above it: `<+` for a reason in favour, `<-` for a reason against. Where there are several unindented entries, they are rival positions, of which exactly one is correct.
+
+When solving this coding problem, we should implement the comparison with the built-in min and max functions.
+    <+ Built-ins state the intent in one line: print(min(x, y), max(x, y)).
+        <+ Fewer lines of code leave fewer places for a swapped-output bug.
+
+When solving this coding problem, we should implement the comparison manually with an if-else on x and y.
+    <+ An explicit branch makes the ordering logic visible to a reader.
+        <- Fewer lines of code leave fewer places for a swapped-output bug.
+    <- With $0 \leq x, y \leq 9$ a hand-written branch has no edge cases worth {guarding}.
+
+Topic under discussion: which of these rival positions is correct: (1) When solving this coding problem, we should implement the comparison with the built-in min and max functions.; (2) When solving this coding problem, we should implement the comparison manually with an if-else on x and y.
+
+Consider this claim:
+  Built-ins state the intent in one line: print(min(x, y), max(x, y)).
+
+Is the claim true?
+A: Yes
+B: No
+
+### marginal a - swapped=True
+The debate concerns the following programming problem.
+
+Problem:
+You are given two integers $x$ and $y$. Output the minimum of $x$ and $y$, followed by the maximum of $x$ and $y$.
+
+Input
+The first line contains a single integer $t$ ($1 \leq t \leq 100$) -- the number of test cases. The only line of each test case contains two space-separated integers $x$ and $y$ ($0 \leq x, y \leq 9$).
+
+Output
+For each test case, output $\min\{x, y\}$ followed by $\max\{x, y\}$.
+
+Tags: ['implementation', 'sortings']
+Time limit: 1 seconds
+Memory limit: 256 megabytes
+
+Design decision: Whether to use built-in min and max operations versus implementing the comparison logic manually with conditionals, trading off brevity against explicitness.
+
+The debate on this topic has been mapped out as follows. Each indented entry is a reason bearing on the entry above it: `<+` for a reason in favour, `<-` for a reason against. Where there are several unindented entries, they are rival positions, of which exactly one is correct.
+
+When solving this coding problem, we should implement the comparison with the built-in min and max functions.
+    <+ Built-ins state the intent in one line: print(min(x, y), max(x, y)).
+        <+ Fewer lines of code leave fewer places for a swapped-output bug.
+
+When solving this coding problem, we should implement the comparison manually with an if-else on x and y.
+    <+ An explicit branch makes the ordering logic visible to a reader.
+        <- Fewer lines of code leave fewer places for a swapped-output bug.
+    <- With $0 \leq x, y \leq 9$ a hand-written branch has no edge cases worth {guarding}.
+
+Topic under discussion: which of these rival positions is correct: (1) When solving this coding problem, we should implement the comparison with the built-in min and max functions.; (2) When solving this coding problem, we should implement the comparison manually with an if-else on x and y.
+
+Consider this claim:
+  Built-ins state the intent in one line: print(min(x, y), max(x, y)).
+
+Is the claim true?
+A: No
+B: Yes
+
+### marginal s - swapped=False
+The debate concerns the following programming problem.
+
+Problem:
+You are given two integers $x$ and $y$. Output the minimum of $x$ and $y$, followed by the maximum of $x$ and $y$.
+
+Input
+The first line contains a single integer $t$ ($1 \leq t \leq 100$) -- the number of test cases. The only line of each test case contains two space-separated integers $x$ and $y$ ($0 \leq x, y \leq 9$).
+
+Output
+For each test case, output $\min\{x, y\}$ followed by $\max\{x, y\}$.
+
+Tags: ['implementation', 'sortings']
+Time limit: 1 seconds
+Memory limit: 256 megabytes
+
+Design decision: Whether to use built-in min and max operations versus implementing the comparison logic manually with conditionals, trading off brevity against explicitness.
+
+The debate on this topic has been mapped out as follows. Each indented entry is a reason bearing on the entry above it: `<+` for a reason in favour, `<-` for a reason against. Where there are several unindented entries, they are rival positions, of which exactly one is correct.
+
+When solving this coding problem, we should implement the comparison with the built-in min and max functions.
+    <+ Built-ins state the intent in one line: print(min(x, y), max(x, y)).
+        <+ Fewer lines of code leave fewer places for a swapped-output bug.
+
+When solving this coding problem, we should implement the comparison manually with an if-else on x and y.
+    <+ An explicit branch makes the ordering logic visible to a reader.
+        <- Fewer lines of code leave fewer places for a swapped-output bug.
+    <- With $0 \leq x, y \leq 9$ a hand-written branch has no edge cases worth {guarding}.
+
+Topic under discussion: which of these rival positions is correct: (1) When solving this coding problem, we should implement the comparison with the built-in min and max functions.; (2) When solving this coding problem, we should implement the comparison manually with an if-else on x and y.
+
+Consider this claim:
+  Fewer lines of code leave fewer places for a swapped-output bug.
+
+Is the claim true?
+A: Yes
+B: No
+
+### marginal s - swapped=True
+The debate concerns the following programming problem.
+
+Problem:
+You are given two integers $x$ and $y$. Output the minimum of $x$ and $y$, followed by the maximum of $x$ and $y$.
+
+Input
+The first line contains a single integer $t$ ($1 \leq t \leq 100$) -- the number of test cases. The only line of each test case contains two space-separated integers $x$ and $y$ ($0 \leq x, y \leq 9$).
+
+Output
+For each test case, output $\min\{x, y\}$ followed by $\max\{x, y\}$.
+
+Tags: ['implementation', 'sortings']
+Time limit: 1 seconds
+Memory limit: 256 megabytes
+
+Design decision: Whether to use built-in min and max operations versus implementing the comparison logic manually with conditionals, trading off brevity against explicitness.
+
+The debate on this topic has been mapped out as follows. Each indented entry is a reason bearing on the entry above it: `<+` for a reason in favour, `<-` for a reason against. Where there are several unindented entries, they are rival positions, of which exactly one is correct.
+
+When solving this coding problem, we should implement the comparison with the built-in min and max functions.
+    <+ Built-ins state the intent in one line: print(min(x, y), max(x, y)).
+        <+ Fewer lines of code leave fewer places for a swapped-output bug.
+
+When solving this coding problem, we should implement the comparison manually with an if-else on x and y.
+    <+ An explicit branch makes the ordering logic visible to a reader.
+        <- Fewer lines of code leave fewer places for a swapped-output bug.
+    <- With $0 \leq x, y \leq 9$ a hand-written branch has no edge cases worth {guarding}.
+
+Topic under discussion: which of these rival positions is correct: (1) When solving this coding problem, we should implement the comparison with the built-in min and max functions.; (2) When solving this coding problem, we should implement the comparison manually with an if-else on x and y.
+
+Consider this claim:
+  Fewer lines of code leave fewer places for a swapped-output bug.
+
+Is the claim true?
+A: No
+B: Yes
+
+### conditional a|r1 pos swapped=False
+The debate concerns the following programming problem.
+
+Problem:
+You are given two integers $x$ and $y$. Output the minimum of $x$ and $y$, followed by the maximum of $x$ and $y$.
+
+Input
+The first line contains a single integer $t$ ($1 \leq t \leq 100$) -- the number of test cases. The only line of each test case contains two space-separated integers $x$ and $y$ ($0 \leq x, y \leq 9$).
+
+Output
+For each test case, output $\min\{x, y\}$ followed by $\max\{x, y\}$.
+
+Tags: ['implementation', 'sortings']
+Time limit: 1 seconds
+Memory limit: 256 megabytes
+
+Design decision: Whether to use built-in min and max operations versus implementing the comparison logic manually with conditionals, trading off brevity against explicitness.
+
+The debate on this topic has been mapped out as follows. Each indented entry is a reason bearing on the entry above it: `<+` for a reason in favour, `<-` for a reason against. Where there are several unindented entries, they are rival positions, of which exactly one is correct.
+
+When solving this coding problem, we should implement the comparison with the built-in min and max functions.
+    <+ Built-ins state the intent in one line: print(min(x, y), max(x, y)).
+        <+ Fewer lines of code leave fewer places for a swapped-output bug.
+
+When solving this coding problem, we should implement the comparison manually with an if-else on x and y.
+    <+ An explicit branch makes the ordering logic visible to a reader.
+        <- Fewer lines of code leave fewer places for a swapped-output bug.
+    <- With $0 \leq x, y \leq 9$ a hand-written branch has no edge cases worth {guarding}.
+
+Topic under discussion: which of these rival positions is correct: (1) When solving this coding problem, we should implement the comparison with the built-in min and max functions.; (2) When solving this coding problem, we should implement the comparison manually with an if-else on x and y.
+
+Suppose, for the sake of argument, that the following is the case:
+  Built-ins state the intent in one line: print(min(x, y), max(x, y)).
+
+Under that supposition, is the following true?
+  When solving this coding problem, we should implement the comparison with the built-in min and max functions.
+A: Yes
+B: No
+
+### conditional a|r1 pos swapped=True
+The debate concerns the following programming problem.
+
+Problem:
+You are given two integers $x$ and $y$. Output the minimum of $x$ and $y$, followed by the maximum of $x$ and $y$.
+
+Input
+The first line contains a single integer $t$ ($1 \leq t \leq 100$) -- the number of test cases. The only line of each test case contains two space-separated integers $x$ and $y$ ($0 \leq x, y \leq 9$).
+
+Output
+For each test case, output $\min\{x, y\}$ followed by $\max\{x, y\}$.
+
+Tags: ['implementation', 'sortings']
+Time limit: 1 seconds
+Memory limit: 256 megabytes
+
+Design decision: Whether to use built-in min and max operations versus implementing the comparison logic manually with conditionals, trading off brevity against explicitness.
+
+The debate on this topic has been mapped out as follows. Each indented entry is a reason bearing on the entry above it: `<+` for a reason in favour, `<-` for a reason against. Where there are several unindented entries, they are rival positions, of which exactly one is correct.
+
+When solving this coding problem, we should implement the comparison with the built-in min and max functions.
+    <+ Built-ins state the intent in one line: print(min(x, y), max(x, y)).
+        <+ Fewer lines of code leave fewer places for a swapped-output bug.
+
+When solving this coding problem, we should implement the comparison manually with an if-else on x and y.
+    <+ An explicit branch makes the ordering logic visible to a reader.
+        <- Fewer lines of code leave fewer places for a swapped-output bug.
+    <- With $0 \leq x, y \leq 9$ a hand-written branch has no edge cases worth {guarding}.
+
+Topic under discussion: which of these rival positions is correct: (1) When solving this coding problem, we should implement the comparison with the built-in min and max functions.; (2) When solving this coding problem, we should implement the comparison manually with an if-else on x and y.
+
+Suppose, for the sake of argument, that the following is the case:
+  Built-ins state the intent in one line: print(min(x, y), max(x, y)).
+
+Under that supposition, is the following true?
+  When solving this coding problem, we should implement the comparison with the built-in min and max functions.
+A: No
+B: Yes
+
+### conditional a|r1 neg swapped=False
+The debate concerns the following programming problem.
+
+Problem:
+You are given two integers $x$ and $y$. Output the minimum of $x$ and $y$, followed by the maximum of $x$ and $y$.
+
+Input
+The first line contains a single integer $t$ ($1 \leq t \leq 100$) -- the number of test cases. The only line of each test case contains two space-separated integers $x$ and $y$ ($0 \leq x, y \leq 9$).
+
+Output
+For each test case, output $\min\{x, y\}$ followed by $\max\{x, y\}$.
+
+Tags: ['implementation', 'sortings']
+Time limit: 1 seconds
+Memory limit: 256 megabytes
+
+Design decision: Whether to use built-in min and max operations versus implementing the comparison logic manually with conditionals, trading off brevity against explicitness.
+
+The debate on this topic has been mapped out as follows. Each indented entry is a reason bearing on the entry above it: `<+` for a reason in favour, `<-` for a reason against. Where there are several unindented entries, they are rival positions, of which exactly one is correct.
+
+When solving this coding problem, we should implement the comparison with the built-in min and max functions.
+    <+ Built-ins state the intent in one line: print(min(x, y), max(x, y)).
+        <+ Fewer lines of code leave fewer places for a swapped-output bug.
+
+When solving this coding problem, we should implement the comparison manually with an if-else on x and y.
+    <+ An explicit branch makes the ordering logic visible to a reader.
+        <- Fewer lines of code leave fewer places for a swapped-output bug.
+    <- With $0 \leq x, y \leq 9$ a hand-written branch has no edge cases worth {guarding}.
+
+Topic under discussion: which of these rival positions is correct: (1) When solving this coding problem, we should implement the comparison with the built-in min and max functions.; (2) When solving this coding problem, we should implement the comparison manually with an if-else on x and y.
+
+Suppose, for the sake of argument, that the following is not the case:
+  Built-ins state the intent in one line: print(min(x, y), max(x, y)).
+
+Under that supposition, is the following true?
+  When solving this coding problem, we should implement the comparison with the built-in min and max functions.
+A: Yes
+B: No
+
+### conditional a|r1 neg swapped=True
+The debate concerns the following programming problem.
+
+Problem:
+You are given two integers $x$ and $y$. Output the minimum of $x$ and $y$, followed by the maximum of $x$ and $y$.
+
+Input
+The first line contains a single integer $t$ ($1 \leq t \leq 100$) -- the number of test cases. The only line of each test case contains two space-separated integers $x$ and $y$ ($0 \leq x, y \leq 9$).
+
+Output
+For each test case, output $\min\{x, y\}$ followed by $\max\{x, y\}$.
+
+Tags: ['implementation', 'sortings']
+Time limit: 1 seconds
+Memory limit: 256 megabytes
+
+Design decision: Whether to use built-in min and max operations versus implementing the comparison logic manually with conditionals, trading off brevity against explicitness.
+
+The debate on this topic has been mapped out as follows. Each indented entry is a reason bearing on the entry above it: `<+` for a reason in favour, `<-` for a reason against. Where there are several unindented entries, they are rival positions, of which exactly one is correct.
+
+When solving this coding problem, we should implement the comparison with the built-in min and max functions.
+    <+ Built-ins state the intent in one line: print(min(x, y), max(x, y)).
+        <+ Fewer lines of code leave fewer places for a swapped-output bug.
+
+When solving this coding problem, we should implement the comparison manually with an if-else on x and y.
+    <+ An explicit branch makes the ordering logic visible to a reader.
+        <- Fewer lines of code leave fewer places for a swapped-output bug.
+    <- With $0 \leq x, y \leq 9$ a hand-written branch has no edge cases worth {guarding}.
+
+Topic under discussion: which of these rival positions is correct: (1) When solving this coding problem, we should implement the comparison with the built-in min and max functions.; (2) When solving this coding problem, we should implement the comparison manually with an if-else on x and y.
+
+Suppose, for the sake of argument, that the following is not the case:
+  Built-ins state the intent in one line: print(min(x, y), max(x, y)).
+
+Under that supposition, is the following true?
+  When solving this coding problem, we should implement the comparison with the built-in min and max functions.
+A: No
+B: Yes
+
+### conditional s|r2 pos swapped=False
+The debate concerns the following programming problem.
+
+Problem:
+You are given two integers $x$ and $y$. Output the minimum of $x$ and $y$, followed by the maximum of $x$ and $y$.
+
+Input
+The first line contains a single integer $t$ ($1 \leq t \leq 100$) -- the number of test cases. The only line of each test case contains two space-separated integers $x$ and $y$ ($0 \leq x, y \leq 9$).
+
+Output
+For each test case, output $\min\{x, y\}$ followed by $\max\{x, y\}$.
+
+Tags: ['implementation', 'sortings']
+Time limit: 1 seconds
+Memory limit: 256 megabytes
+
+Design decision: Whether to use built-in min and max operations versus implementing the comparison logic manually with conditionals, trading off brevity against explicitness.
+
+The debate on this topic has been mapped out as follows. Each indented entry is a reason bearing on the entry above it: `<+` for a reason in favour, `<-` for a reason against. Where there are several unindented entries, they are rival positions, of which exactly one is correct.
+
+When solving this coding problem, we should implement the comparison with the built-in min and max functions.
+    <+ Built-ins state the intent in one line: print(min(x, y), max(x, y)).
+        <+ Fewer lines of code leave fewer places for a swapped-output bug.
+
+When solving this coding problem, we should implement the comparison manually with an if-else on x and y.
+    <+ An explicit branch makes the ordering logic visible to a reader.
+        <- Fewer lines of code leave fewer places for a swapped-output bug.
+    <- With $0 \leq x, y \leq 9$ a hand-written branch has no edge cases worth {guarding}.
+
+Topic under discussion: which of these rival positions is correct: (1) When solving this coding problem, we should implement the comparison with the built-in min and max functions.; (2) When solving this coding problem, we should implement the comparison manually with an if-else on x and y.
+
+Suppose, for the sake of argument, that the following is the case:
+  Fewer lines of code leave fewer places for a swapped-output bug.
+
+Under that supposition, is the following true?
+  When solving this coding problem, we should implement the comparison manually with an if-else on x and y.
+A: Yes
+B: No
+
+### conditional s|r2 pos swapped=True
+The debate concerns the following programming problem.
+
+Problem:
+You are given two integers $x$ and $y$. Output the minimum of $x$ and $y$, followed by the maximum of $x$ and $y$.
+
+Input
+The first line contains a single integer $t$ ($1 \leq t \leq 100$) -- the number of test cases. The only line of each test case contains two space-separated integers $x$ and $y$ ($0 \leq x, y \leq 9$).
+
+Output
+For each test case, output $\min\{x, y\}$ followed by $\max\{x, y\}$.
+
+Tags: ['implementation', 'sortings']
+Time limit: 1 seconds
+Memory limit: 256 megabytes
+
+Design decision: Whether to use built-in min and max operations versus implementing the comparison logic manually with conditionals, trading off brevity against explicitness.
+
+The debate on this topic has been mapped out as follows. Each indented entry is a reason bearing on the entry above it: `<+` for a reason in favour, `<-` for a reason against. Where there are several unindented entries, they are rival positions, of which exactly one is correct.
+
+When solving this coding problem, we should implement the comparison with the built-in min and max functions.
+    <+ Built-ins state the intent in one line: print(min(x, y), max(x, y)).
+        <+ Fewer lines of code leave fewer places for a swapped-output bug.
+
+When solving this coding problem, we should implement the comparison manually with an if-else on x and y.
+    <+ An explicit branch makes the ordering logic visible to a reader.
+        <- Fewer lines of code leave fewer places for a swapped-output bug.
+    <- With $0 \leq x, y \leq 9$ a hand-written branch has no edge cases worth {guarding}.
+
+Topic under discussion: which of these rival positions is correct: (1) When solving this coding problem, we should implement the comparison with the built-in min and max functions.; (2) When solving this coding problem, we should implement the comparison manually with an if-else on x and y.
+
+Suppose, for the sake of argument, that the following is the case:
+  Fewer lines of code leave fewer places for a swapped-output bug.
+
+Under that supposition, is the following true?
+  When solving this coding problem, we should implement the comparison manually with an if-else on x and y.
+A: No
+B: Yes
+
+### conditional s|r2 neg swapped=False
+The debate concerns the following programming problem.
+
+Problem:
+You are given two integers $x$ and $y$. Output the minimum of $x$ and $y$, followed by the maximum of $x$ and $y$.
+
+Input
+The first line contains a single integer $t$ ($1 \leq t \leq 100$) -- the number of test cases. The only line of each test case contains two space-separated integers $x$ and $y$ ($0 \leq x, y \leq 9$).
+
+Output
+For each test case, output $\min\{x, y\}$ followed by $\max\{x, y\}$.
+
+Tags: ['implementation', 'sortings']
+Time limit: 1 seconds
+Memory limit: 256 megabytes
+
+Design decision: Whether to use built-in min and max operations versus implementing the comparison logic manually with conditionals, trading off brevity against explicitness.
+
+The debate on this topic has been mapped out as follows. Each indented entry is a reason bearing on the entry above it: `<+` for a reason in favour, `<-` for a reason against. Where there are several unindented entries, they are rival positions, of which exactly one is correct.
+
+When solving this coding problem, we should implement the comparison with the built-in min and max functions.
+    <+ Built-ins state the intent in one line: print(min(x, y), max(x, y)).
+        <+ Fewer lines of code leave fewer places for a swapped-output bug.
+
+When solving this coding problem, we should implement the comparison manually with an if-else on x and y.
+    <+ An explicit branch makes the ordering logic visible to a reader.
+        <- Fewer lines of code leave fewer places for a swapped-output bug.
+    <- With $0 \leq x, y \leq 9$ a hand-written branch has no edge cases worth {guarding}.
+
+Topic under discussion: which of these rival positions is correct: (1) When solving this coding problem, we should implement the comparison with the built-in min and max functions.; (2) When solving this coding problem, we should implement the comparison manually with an if-else on x and y.
+
+Suppose, for the sake of argument, that the following is not the case:
+  Fewer lines of code leave fewer places for a swapped-output bug.
+
+Under that supposition, is the following true?
+  When solving this coding problem, we should implement the comparison manually with an if-else on x and y.
+A: Yes
+B: No
+
+### conditional s|r2 neg swapped=True
+The debate concerns the following programming problem.
+
+Problem:
+You are given two integers $x$ and $y$. Output the minimum of $x$ and $y$, followed by the maximum of $x$ and $y$.
+
+Input
+The first line contains a single integer $t$ ($1 \leq t \leq 100$) -- the number of test cases. The only line of each test case contains two space-separated integers $x$ and $y$ ($0 \leq x, y \leq 9$).
+
+Output
+For each test case, output $\min\{x, y\}$ followed by $\max\{x, y\}$.
+
+Tags: ['implementation', 'sortings']
+Time limit: 1 seconds
+Memory limit: 256 megabytes
+
+Design decision: Whether to use built-in min and max operations versus implementing the comparison logic manually with conditionals, trading off brevity against explicitness.
+
+The debate on this topic has been mapped out as follows. Each indented entry is a reason bearing on the entry above it: `<+` for a reason in favour, `<-` for a reason against. Where there are several unindented entries, they are rival positions, of which exactly one is correct.
+
+When solving this coding problem, we should implement the comparison with the built-in min and max functions.
+    <+ Built-ins state the intent in one line: print(min(x, y), max(x, y)).
+        <+ Fewer lines of code leave fewer places for a swapped-output bug.
+
+When solving this coding problem, we should implement the comparison manually with an if-else on x and y.
+    <+ An explicit branch makes the ordering logic visible to a reader.
+        <- Fewer lines of code leave fewer places for a swapped-output bug.
+    <- With $0 \leq x, y \leq 9$ a hand-written branch has no edge cases worth {guarding}.
+
+Topic under discussion: which of these rival positions is correct: (1) When solving this coding problem, we should implement the comparison with the built-in min and max functions.; (2) When solving this coding problem, we should implement the comparison manually with an if-else on x and y.
+
+Suppose, for the sake of argument, that the following is not the case:
+  Fewer lines of code leave fewer places for a swapped-output bug.
+
+Under that supposition, is the following true?
+  When solving this coding problem, we should implement the comparison manually with an if-else on x and y.
+A: No
+B: Yes

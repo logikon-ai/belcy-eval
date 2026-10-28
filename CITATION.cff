@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use belcy-eval, please cite it as below."
+title: "belcy-eval: Bayesian belief consistency evaluation of LLMs"
+type: software
+version: 0.2.0
+license: MIT
+repository-code: "https://github.com/logikon-ai/belcy-eval"
+authors:
+  - family-names: Betz
+    given-names: Gregor

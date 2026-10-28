@@ -1,0 +1,247 @@
+### marginal n0 - swapped=False
+The debate on this topic has been mapped out as follows. Each indented entry is a reason bearing on the entry above it: `<+` for a reason in favour, `<-` for a reason against. Where there are several unindented entries, they are rival positions, of which exactly one is correct.
+
+The root claim.
+    <+ Claim number 3.
+        <+ Claim number 7.
+        <- Claim number 6.
+    <- Claim number 2.
+        <- Claim number 4.
+        <- Claim number 5.
+
+Topic under discussion: The root claim.
+
+Consider this claim:
+  The root claim.
+
+Is the claim true?
+A: Yes
+B: No
+
+### marginal n0 - swapped=True
+The debate on this topic has been mapped out as follows. Each indented entry is a reason bearing on the entry above it: `<+` for a reason in favour, `<-` for a reason against. Where there are several unindented entries, they are rival positions, of which exactly one is correct.
+
+The root claim.
+    <+ Claim number 3.
+        <+ Claim number 7.
+        <- Claim number 6.
+    <- Claim number 2.
+        <- Claim number 4.
+        <- Claim number 5.
+
+Topic under discussion: The root claim.
+
+Consider this claim:
+  The root claim.
+
+Is the claim true?
+A: No
+B: Yes
+
+### marginal n6 - swapped=False
+The debate on this topic has been mapped out as follows. Each indented entry is a reason bearing on the entry above it: `<+` for a reason in favour, `<-` for a reason against. Where there are several unindented entries, they are rival positions, of which exactly one is correct.
+
+The root claim.
+    <+ Claim number 3.
+        <+ Claim number 7.
+        <- Claim number 6.
+    <- Claim number 2.
+        <- Claim number 4.
+        <- Claim number 5.
+
+Topic under discussion: The root claim.
+
+Consider this claim:
+  Claim number 7.
+
+Is the claim true?
+A: Yes
+B: No
+
+### marginal n6 - swapped=True
+The debate on this topic has been mapped out as follows. Each indented entry is a reason bearing on the entry above it: `<+` for a reason in favour, `<-` for a reason against. Where there are several unindented entries, they are rival positions, of which exactly one is correct.
+
+The root claim.
+    <+ Claim number 3.
+        <+ Claim number 7.
+        <- Claim number 6.
+    <- Claim number 2.
+        <- Claim number 4.
+        <- Claim number 5.
+
+Topic under discussion: The root claim.
+
+Consider this claim:
+  Claim number 7.
+
+Is the claim true?
+A: No
+B: Yes
+
+### conditional n1|n0 pos swapped=False
+The debate on this topic has been mapped out as follows. Each indented entry is a reason bearing on the entry above it: `<+` for a reason in favour, `<-` for a reason against. Where there are several unindented entries, they are rival positions, of which exactly one is correct.
+
+The root claim.
+    <+ Claim number 3.
+        <+ Claim number 7.
+        <- Claim number 6.
+    <- Claim number 2.
+        <- Claim number 4.
+        <- Claim number 5.
+
+Topic under discussion: The root claim.
+
+Suppose, for the sake of argument, that the following is the case:
+  Claim number 2.
+
+Under that supposition, is the following true?
+  The root claim.
+A: Yes
+B: No
+
+### conditional n1|n0 pos swapped=True
+The debate on this topic has been mapped out as follows. Each indented entry is a reason bearing on the entry above it: `<+` for a reason in favour, `<-` for a reason against. Where there are several unindented entries, they are rival positions, of which exactly one is correct.
+
+The root claim.
+    <+ Claim number 3.
+        <+ Claim number 7.
+        <- Claim number 6.
+    <- Claim number 2.
+        <- Claim number 4.
+        <- Claim number 5.
+
+Topic under discussion: The root claim.
+
+Suppose, for the sake of argument, that the following is the case:
+  Claim number 2.
+
+Under that supposition, is the following true?
+  The root claim.
+A: No
+B: Yes
+
+### conditional n1|n0 neg swapped=False
+The debate on this topic has been mapped out as follows. Each indented entry is a reason bearing on the entry above it: `<+` for a reason in favour, `<-` for a reason against. Where there are several unindented entries, they are rival positions, of which exactly one is correct.
+
+The root claim.
+    <+ Claim number 3.
+        <+ Claim number 7.
+        <- Claim number 6.
+    <- Claim number 2.
+        <- Claim number 4.
+        <- Claim number 5.
+
+Topic under discussion: The root claim.
+
+Suppose, for the sake of argument, that the following is not the case:
+  Claim number 2.
+
+Under that supposition, is the following true?
+  The root claim.
+A: Yes
+B: No
+
+### conditional n1|n0 neg swapped=True
+The debate on this topic has been mapped out as follows. Each indented entry is a reason bearing on the entry above it: `<+` for a reason in favour, `<-` for a reason against. Where there are several unindented entries, they are rival positions, of which exactly one is correct.
+
+The root claim.
+    <+ Claim number 3.
+        <+ Claim number 7.
+        <- Claim number 6.
+    <- Claim number 2.
+        <- Claim number 4.
+        <- Claim number 5.
+
+Topic under discussion: The root claim.
+
+Suppose, for the sake of argument, that the following is not the case:
+  Claim number 2.
+
+Under that supposition, is the following true?
+  The root claim.
+A: No
+B: Yes
+
+### conditional n6|n0 pos swapped=False
+The debate on this topic has been mapped out as follows. Each indented entry is a reason bearing on the entry above it: `<+` for a reason in favour, `<-` for a reason against. Where there are several unindented entries, they are rival positions, of which exactly one is correct.
+
+The root claim.
+    <+ Claim number 3.
+        <+ Claim number 7.
+        <- Claim number 6.
+    <- Claim number 2.
+        <- Claim number 4.
+        <- Claim number 5.
+
+Topic under discussion: The root claim.
+
+Suppose, for the sake of argument, that the following is the case:
+  Claim number 7.
+
+Under that supposition, is the following true?
+  The root claim.
+A: Yes
+B: No
+
+### conditional n6|n0 pos swapped=True
+The debate on this topic has been mapped out as follows. Each indented entry is a reason bearing on the entry above it: `<+` for a reason in favour, `<-` for a reason against. Where there are several unindented entries, they are rival positions, of which exactly one is correct.
+
+The root claim.
+    <+ Claim number 3.
+        <+ Claim number 7.
+        <- Claim number 6.
+    <- Claim number 2.
+        <- Claim number 4.
+        <- Claim number 5.
+
+Topic under discussion: The root claim.
+
+Suppose, for the sake of argument, that the following is the case:
+  Claim number 7.
+
+Under that supposition, is the following true?
+  The root claim.
+A: No
+B: Yes
+
+### conditional n6|n0 neg swapped=False
+The debate on this topic has been mapped out as follows. Each indented entry is a reason bearing on the entry above it: `<+` for a reason in favour, `<-` for a reason against. Where there are several unindented entries, they are rival positions, of which exactly one is correct.
+
+The root claim.
+    <+ Claim number 3.
+        <+ Claim number 7.
+        <- Claim number 6.
+    <- Claim number 2.
+        <- Claim number 4.
+        <- Claim number 5.
+
+Topic under discussion: The root claim.
+
+Suppose, for the sake of argument, that the following is not the case:
+  Claim number 7.
+
+Under that supposition, is the following true?
+  The root claim.
+A: Yes
+B: No
+
+### conditional n6|n0 neg swapped=True
+The debate on this topic has been mapped out as follows. Each indented entry is a reason bearing on the entry above it: `<+` for a reason in favour, `<-` for a reason against. Where there are several unindented entries, they are rival positions, of which exactly one is correct.
+
+The root claim.
+    <+ Claim number 3.
+        <+ Claim number 7.
+        <- Claim number 6.
+    <- Claim number 2.
+        <- Claim number 4.
+        <- Claim number 5.
+
+Topic under discussion: The root claim.
+
+Suppose, for the sake of argument, that the following is not the case:
+  Claim number 7.
+
+Under that supposition, is the following true?
+  The root claim.
+A: No
+B: Yes

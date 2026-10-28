@@ -1,0 +1,63 @@
+# The tables personas are built from. Read by belcy_eval.personas.
+#
+# A persona is not written, it is assembled: two wants it endorses, two it rejects, and
+# one level on each disposition scale. Every sentence below is reused verbatim, so the
+# whole vocabulary a persona can put into a prompt is fixed, small and readable here.
+
+# ---------------------------------------------------------------------------
+# WANTS: Schwartz's ten basic values, one sentence each.
+#
+# Each sentence is a bare `that ...` clause, so the same string reads correctly under
+# the endorsed heading and under the rejected one. A want says what counts as a
+# benefit; it never says how to sound.
+# ---------------------------------------------------------------------------
+wants:
+  self-direction: that the life you make is distinctly your own, and not one that was arranged for you
+  stimulation: that there is novelty and excitement, and new things to try
+  hedonism: that what you do is enjoyable in itself, whatever it leads to
+  achievement: that your successes are noticed, and count with people whose praise is worth having
+  power: that you have authority over how things are run, and the regard that goes with it
+  security: that things stay safe and stable, and what works is left as it is
+  conformity: that people are not upset by what you do, and that you keep to what is expected
+  tradition: that customs handed down are kept up, and respected as they were given
+  benevolence: that those close to you are looked after, and can rely on you
+  universalism: that everyone counts equally, strangers as much as your own
+
+# ---------------------------------------------------------------------------
+# The order round Schwartz's circle. Neighbours sit well together and opposites pull
+# apart, and both are read off this list, so it is data and not decoration: rotating
+# it changes nothing, reordering it changes which personas can be drawn.
+#
+# Five pairs face each other across it: self-direction/security,
+# stimulation/conformity, hedonism/tradition, achievement/benevolence,
+# power/universalism.
+# ---------------------------------------------------------------------------
+circle:
+  - self-direction
+  - stimulation
+  - hedonism
+  - achievement
+  - power
+  - security
+  - conformity
+  - tradition
+  - benevolence
+  - universalism
+
+# ---------------------------------------------------------------------------
+# DISPOSITIONS: how a benefit is weighed once you know what counts as one.
+#
+# Kept apart from the wants, so that a cautious outlook and a cautious attitude to
+# risk are separate claims and a persona can have one without the other. Each frame
+# pins one thing and varies the other: `time` holds both gains equally sure and varies
+# when they arrive; `risk` holds the timing and varies how sure they are. Levels run
+# from a strong attitude down to none, and every level is a single word.
+# ---------------------------------------------------------------------------
+dispositions:
+  time:
+    frame: A gain far off, though no less sure, moves you {level} as much as one at hand.
+    levels: [scarcely, half, nearly, just]
+
+  risk:
+    frame: You require an uncertain gain to be {level} larger than a sure one before you take it.
+    levels: [far, clearly, slightly, "no"]

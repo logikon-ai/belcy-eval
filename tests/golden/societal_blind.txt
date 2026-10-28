@@ -1,0 +1,127 @@
+### marginal n0 - swapped=False
+Topic under discussion: The root claim.
+
+Consider this claim:
+  The root claim.
+
+Is the claim true?
+A: Yes
+B: No
+
+### marginal n0 - swapped=True
+Topic under discussion: The root claim.
+
+Consider this claim:
+  The root claim.
+
+Is the claim true?
+A: No
+B: Yes
+
+### marginal n6 - swapped=False
+Topic under discussion: The root claim.
+
+Consider this claim:
+  Claim number 7.
+
+Is the claim true?
+A: Yes
+B: No
+
+### marginal n6 - swapped=True
+Topic under discussion: The root claim.
+
+Consider this claim:
+  Claim number 7.
+
+Is the claim true?
+A: No
+B: Yes
+
+### conditional n1|n0 pos swapped=False
+Topic under discussion: The root claim.
+
+Suppose, for the sake of argument, that the following is the case:
+  Claim number 2.
+
+Under that supposition, is the following true?
+  The root claim.
+A: Yes
+B: No
+
+### conditional n1|n0 pos swapped=True
+Topic under discussion: The root claim.
+
+Suppose, for the sake of argument, that the following is the case:
+  Claim number 2.
+
+Under that supposition, is the following true?
+  The root claim.
+A: No
+B: Yes
+
+### conditional n1|n0 neg swapped=False
+Topic under discussion: The root claim.
+
+Suppose, for the sake of argument, that the following is not the case:
+  Claim number 2.
+
+Under that supposition, is the following true?
+  The root claim.
+A: Yes
+B: No
+
+### conditional n1|n0 neg swapped=True
+Topic under discussion: The root claim.
+
+Suppose, for the sake of argument, that the following is not the case:
+  Claim number 2.
+
+Under that supposition, is the following true?
+  The root claim.
+A: No
+B: Yes
+
+### conditional n6|n0 pos swapped=False
+Topic under discussion: The root claim.
+
+Suppose, for the sake of argument, that the following is the case:
+  Claim number 7.
+
+Under that supposition, is the following true?
+  The root claim.
+A: Yes
+B: No
+
+### conditional n6|n0 pos swapped=True
+Topic under discussion: The root claim.
+
+Suppose, for the sake of argument, that the following is the case:
+  Claim number 7.
+
+Under that supposition, is the following true?
+  The root claim.
+A: No
+B: Yes
+
+### conditional n6|n0 neg swapped=False
+Topic under discussion: The root claim.
+
+Suppose, for the sake of argument, that the following is not the case:
+  Claim number 7.
+
+Under that supposition, is the following true?
+  The root claim.
+A: Yes
+B: No
+
+### conditional n6|n0 neg swapped=True
+Topic under discussion: The root claim.
+
+Suppose, for the sake of argument, that the following is not the case:
+  Claim number 7.
+
+Under that supposition, is the following true?
+  The root claim.
+A: No
+B: Yes
