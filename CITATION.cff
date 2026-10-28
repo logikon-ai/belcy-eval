@@ -3,6 +3,7 @@ message: "If you use belcy-eval, please cite it as below."
 title: "belcy-eval: Bayesian belief consistency evaluation of LLMs"
 type: software
 version: 0.2.0
+doi: "10.5281/zenodo.23727768"
 license: MIT
 repository-code: "https://github.com/logikon-ai/belcy-eval"
 authors:

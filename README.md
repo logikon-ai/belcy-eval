@@ -1,6 +1,7 @@
 # belcy-eval
 [![ruff](https://github.com/logikon-ai/belcy-eval/actions/workflows/ruff.yml/badge.svg)](https://github.com/logikon-ai/belcy-eval/actions/workflows/ruff.yml)
 [![pytest](https://github.com/logikon-ai/belcy-eval/actions/workflows/pytest.yml/badge.svg)](https://github.com/logikon-ai/belcy-eval/actions/workflows/pytest.yml)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23727768.svg)](https://doi.org/10.5281/zenodo.23727768)
 
 **Bayesian BELief ConsistencY Evaluation of LLMs.** belcy uses a debate's structure of
 reasons as a yardstick, and asks whether a language model's degrees of belief respond to
@@ -140,7 +141,8 @@ uv run python -m belcy_eval.scripts.export_manifest check \
 ## Citation
 
 If you use belcy, please cite the software (see `CITATION.cff`): Gregor Betz,
-*belcy-eval: Bayesian belief consistency evaluation of LLMs*, version 0.2.0, 2026.
+*belcy-eval: Bayesian belief consistency evaluation of LLMs*, version 0.2.0, 2026,
+doi:[10.5281/zenodo.23727768](https://doi.org/10.5281/zenodo.23727768).
 The technical report, *Do Language Model Credences Follow the Argument? A Bayesian
 Benchmark for Belief Consistency (BelCy)*, is in preparation; please cite it too once
 it is out.
